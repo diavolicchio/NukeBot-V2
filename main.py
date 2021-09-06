@@ -142,5 +142,4 @@ async def rolescreate(ctx):
       except:
         print(f"Non sono riuscito a creare {role.name}")
 
-keep_alive.keep_alive()
-client.run(os.getenv('SECRET3'))
+client.run("YOUR TOKEN HERE")
